@@ -187,8 +187,8 @@ bindsym $mod+r mode "resize"
 
 # class                 border  bground text    indicator child_border
 client.focused          #2A032D #2A032D #FFFFFF #330332   #330332
-client.focused_inactive #232323 #121314 #FFFFFF #484E50   #5F676A
-client.unfocused        #333333 #222222 #888888 #292D2E   #222222
+client.focused_inactive #121314 #121314 #FFFFFF #484E50   #121314
+client.unfocused        #222222 #222222 #888888 #292D2E   #222222
 client.urgent           #2F343A #900000 #FFFFFF #900000   #900000
 client.placeholder      #000000 #0C0C0C #FFFFFF #000000   #0C0C0C
 
@@ -211,7 +211,8 @@ bar {
 
 ## --------
 # Screenshots
-bindsym Print exec --no-startup-id maim "/home/$USER/Pictures/Screenshots/$(date)"
+bindsym Print exec flameshot gui
+#bindsym Print exec --no-startup-id maim "/home/$USER/Pictures/Screenshots/$(date)"
 bindsym $mod+Print exec --no-startup-id maim --window $(xdotool getactivewindow) "/home/$USER/Pictures/Screenshots/$(date)"
 bindsym Shift+Print exec --no-startup-id maim --select "/home/$USER/Pictures/Screenshots/$(date)"
 
