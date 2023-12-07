@@ -186,24 +186,23 @@ bindsym $mod+r mode "resize"
 # finds out, if available)
 
 # class                 border  bground text    indicator child_border
-client.focused          #2A032D #2A032D #FFFFFF #330332   #330332
-client.focused_inactive #121314 #121314 #FFFFFF #484E50   #121314
-client.unfocused        #222222 #222222 #888888 #292D2E   #222222
+client.focused          #090909 #090909 #FFFFFF #212121   #212121
+client.focused_inactive #212121 #212121 #FFFFFF #090909   #090909
+client.unfocused        #333333 #222222 #888888 #292D2E   #222222
 client.urgent           #2F343A #900000 #FFFFFF #900000   #900000
 client.placeholder      #000000 #0C0C0C #FFFFFF #000000   #0C0C0C
 
 client.background       #FFFFFF
 
 bar {
-  status_command i3status
   colors {
     background #000000
     statusline #FFFFFF
     separator  #666666
 
-    focused_workspace  #500753 #B10093 #FFFFFF
-    active_workspace   #333333 #222222 #FFFFFF
-    inactive_workspace #333333 #222222 #888888
+    focused_workspace  #090909 #090909 #FFFFFF
+    active_workspace   #131313 #333333 #FFFFFF
+    inactive_workspace #4B4B4B #393939 #939393
     urgent_workspace   #2F343A #900000 #FFFFFF
     binding_mode       #2F343A #900000 #FFFFFF
   }
