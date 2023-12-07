@@ -3,4 +3,4 @@
 	url = https://github.com/dexpota/kitty-themes.git
 [submodule "nvim"]
 	path = nvim
-	url = https://github.com/tomiock/kickstart-nvim
+	url = https://github.com/tomiock/kickstart.nvim.git
