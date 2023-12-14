@@ -90,7 +90,7 @@ export EDITOR=nvim
 # if [[ -n $SSH_CONNECTION ]]; then
 #   export EDITOR='vim'
 # else
-#   export EDITOR='mvim'
+#   export EDITOR='nvim'
 # fi
 
 # Compilation flags
@@ -109,6 +109,15 @@ alias ls="exa"
 alias l="exa --long --all"
 alias ll="exa --all"
 alias cat="batcat"
+alias icat="kitten icat"
+alias vim="vi"
+
+# KITTYYYYYY
+export PATH=$PATH:/home/.local/kitty.app/bin/kitty
+
+
+### GO
+export PATH=$PATH:/usr/local/go/bin
 
 
 ### NODE JS
@@ -132,3 +141,6 @@ unset __conda_setup
 # <<< conda initialize <<<
 
 eval "$(zoxide init zsh)"
+alias z='__zoxide_z'
+alias zi='__zoxide_zi'
+alias cd='z'
