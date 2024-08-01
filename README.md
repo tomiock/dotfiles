@@ -1,6 +1,6 @@
 # dotfiles
 
-WARNING: This is outdated. My current config is on Nix. You can check out in [this repository](https://github.com/tomiock/nix-config/)
+WARNING: This is outdated. My current config is on Nix. You can check it out in [this repository](https://github.com/tomiock/nix-config/)
 
 Just my dotfiles :D
 
